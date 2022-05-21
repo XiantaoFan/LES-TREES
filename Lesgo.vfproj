@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{31D96E74-9FEA-4DC4-99E0-40AAB8E8696F}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" AdditionalIncludeDirectories="C:\Program Files (x86)\Argonne National Lab\MPICH.NT.1.2.0.4\SDK\Include" Interfaces="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="C:\Program Files (x86)\Argonne National Lab\MPICH.NT.1.2.0.4\SDK\Lib" GenerateDebugInformation="true" SubSystem="subSystemConsole" AdditionalDependencies="ws2_32.lib mpich.lib pmpich.lib romio.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" AdditionalIncludeDirectories="C:\Program Files (x86)\Argonne National Lab\MPICH.NT.1.2.0.4\SDK\Include"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="C:\Program Files (x86)\Argonne National Lab\MPICH.NT.1.2.0.4\SDK\Lib" SubSystem="subSystemConsole" HeapReserveSize="640000000" StackReserveSize="640000000" AdditionalDependencies="ws2_32.lib mpich.lib pmpich.lib romio.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\actuator_turbine_model.f90"/>
+		<File RelativePath=".\atm_base.f90"/>
+		<File RelativePath=".\atm_input_util.f90"/>
+		<File RelativePath=".\atm_lesgo_interface.f90"/>
+		<File RelativePath=".\cfl_util.f90"/>
+		<File RelativePath=".\clocks.f90"/>
+		<File RelativePath=".\concurrent_precursor.f90"/>
+		<File RelativePath=".\convec.f90"/>
+		<File RelativePath=".\derivatives.f90"/>
+		<File RelativePath=".\divstress_uv.f90"/>
+		<File RelativePath=".\divstress_w.f90"/>
+		<File RelativePath=".\emul_complex.f90"/>
+		<File RelativePath=".\fft.f90"/>
+		<File RelativePath=".\finalize.f90"/>
+		<File RelativePath=".\forcing.f90"/>
+		<File RelativePath=".\fringe_util.f90"/>
+		<File RelativePath=".\functions.f90"/>
+		<File RelativePath=".\grid.f90"/>
+		<File RelativePath=".\hit_inflow.f90"/>
+		<File RelativePath=".\init_random_seed.f90"/>
+		<File RelativePath=".\initial.f90"/>
+		<File RelativePath=".\initialize.f90"/>
+		<File RelativePath=".\input_util.f90"/>
+		<File RelativePath=".\interpolag_Sdep.f90"/>
+		<File RelativePath=".\interpolag_Ssim.f90"/>
+		<File RelativePath=".\io.f90"/>
+		<File RelativePath=".\iwmles.f90"/>
+		<File RelativePath=".\lagrange_Sdep.f90"/>
+		<File RelativePath=".\lagrange_Ssim.f90"/>
+		<File RelativePath=".\level_set.f90"/>
+		<File RelativePath=".\level_set_base.f90"/>
+		<File RelativePath=".\linear_simple.f90"/>
+		<File RelativePath=".\main.f90"/>
+		<File RelativePath=".\messages.f90"/>
+		<File RelativePath=".\mpi_defs.f90"/>
+		<File RelativePath=".\mpi_transpose_mod.f90"/>
+		<File RelativePath=".\open_file.f90"/>
+		<File RelativePath=".\param.f90"/>
+		<File RelativePath=".\param_output.f90"/>
+		<File RelativePath=".\press_stag_array.f90"/>
+		<File RelativePath=".\rmsdiv.f90"/>
+		<File RelativePath=".\scaledep_dynamic.f90"/>
+		<File RelativePath=".\sgs_param.f90"/>
+		<File RelativePath=".\sgs_stag_util.f90"/>
+		<File RelativePath=".\sim_param.f90"/>
+		<File RelativePath=".\stat_defs.f90"/>
+		<File RelativePath=".\std_dynamic.f90"/>
+		<File RelativePath=".\string_util.f90"/>
+		<File RelativePath=".\test_filtermodule.f90"/>
+		<File RelativePath=".\trees_base_ls.f90"/>
+		<File RelativePath=".\trees_global_fmask_ls.f90"/>
+		<File RelativePath=".\trees_io_ls.f90"/>
+		<File RelativePath=".\trees_pre_ls.f90"/>
+		<File RelativePath=".\trees_setup_ls.f90"/>
+		<File RelativePath=".\tridag_array.f90"/>
+		<File RelativePath=".\turbines.f90"/>
+		<File RelativePath=".\types.f90"/>
+		<File RelativePath=".\wallstress.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

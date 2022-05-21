@@ -1,0 +1,3 @@
+/home/fan/Desktop/test1-big-mpi/CMakeFiles/rebuild_cache.dir
+/home/fan/Desktop/test1-big-mpi/CMakeFiles/edit_cache.dir
+/home/fan/Desktop/test1-big-mpi/CMakeFiles/lesgo-mpi.dir
